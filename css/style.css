@@ -57,7 +57,7 @@ body{
     bottom: 10px;
     left: 700px;
     opacity: 0.6;
-
+    z-index: 10;
     display: flex;
 }
 
@@ -69,7 +69,7 @@ body{
     bottom: 187px;
     right: 20px;
     opacity: 0.5;
-
+    z-index: 10;
     display: flex;
 }
 
@@ -80,7 +80,7 @@ body{
     position: absolute;
     top: 154px;
     left: 365px;
-
+    z-index: 10;
     display: flex;
 }
 
@@ -92,7 +92,7 @@ body{
     top: 285px;
     left: 310px;
     opacity: 0.8;
-
+    z-index: 10;
     display: flex;
 }
 
@@ -107,7 +107,7 @@ body{
     left: 0px;
     opacity: 0.5;
     
-    
+    z-index: 10;
     
 
     display: flex;
@@ -119,7 +119,7 @@ body{
     height: 70px;
     width: 100px;
     margin: 5px;
-    opacity: 0.2;
+    opacity: 0.2  ;
     
     
 }
@@ -155,3 +155,12 @@ body{
     opacity: 0.2;
   
 }
+
+#inventario{
+    padding: 20px;
+    width: 100px;
+    right: 10px;
+    position: absolute;
+    top:0px;
+    background-color: aliceblue;
+} 
